@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>KeyWe</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/polaroid.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/elastislide.css" />
+
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+		<noscript>
+			<style>
+				.es-carousel ul{
+					display:block;
+				}
+			</style>
+		</noscript>
+		<script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">
+			<div class="rg-image-wrapper">
+				{{if itemsCount > 1}}
+					<div class="rg-image-nav">
+						<a href="#" class="rg-image-nav-prev">Previous Image</a>
+						<a href="#" class="rg-image-nav-next">Next Image</a>
+					</div>
+				{{/if}}
+				<div class="rg-image"></div>
+				<div class="rg-loading"></div>
+				<div class="rg-caption-wrapper">
+					<div class="rg-caption" style="display:none;">
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</script>
+
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+
+
+    <h1></h1>
+
+			  <!--<img src="images/inaugura.png" alt="...">
+      	<img src="images/logo1.png" alt="...">
+      	<img src="images/gif1.gif" alt="...">-->
+
+
+  <!-- Navigation -->
+      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container">
+              <div class="navbar-header page-scroll">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand page-scroll" href="#page-top">
+                      <img src="images/logo.png" alt="">
+                  </a>
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse navbar-ex1-collapse">
+                  <ul class="nav navbar-nav">
+                      <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                      <li class="hidden">
+                          <a class="page-scroll" href="#page-top"></a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="#sobre">Sobre</a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="#beneficios">Beneficios</a>
+                      </li>
+											<!--<li>
+											    <a class="page-scroll" href="#agenda">Agenda</a>
+											</li>
+											<li>
+											    <a class="page-scroll" href="#galeria">Fotos</a>
+											</li>-->
+                      <li>
+                          <a class="page-scroll" href="#planos">Planos</a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="#kiwis">Kiwis</a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="#contato">Contato</a>
+                      </li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                      <li>
+                      	  <a href="https://www.facebook.com/keywecoworking/"><img src="images/facebook.jpg" width="20" height="20"></a>
+                      </li>
+                  </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container -->
+      </nav>
+
+      <!-- Intro Section -->
+      <section id="intro" class="intro-section">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <h1>
+	                      <main class="scene">
+	                        <div class="actor">
+	                          <div class="actor__prefix"></div>
+	                          <div id="vader" class="actor__content"></div>
+	                        </div>
+	                        <div class="actor">
+	                          <div class="actor__prefix"></div>
+	                          <div id="luke" class="actor__content"></div>
+	                        </div>
+	                      </main>
+                      </h1>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="sobre" class="about-section">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-8" >
+                      <h2>Somos o KeyWe!<br></br></h2>
+
+	                      <h4>O <b>KeyWe</b> é uma infraestrutura de escritório compartilhado <i>(coworking)</i> para profissionais liberais, empresas ou <i>freelancers</i> que buscam interação profissional e redução de custos.<br></br>A convivência entre pessoas de áreas de atuação diversas promove a divulgação natural das atividades de cada coworker abrindo novas oportunidades de negócio e projetos colaborativos.<br></br>Por outro lado, a redução de custo é consequência das diferentes configurações do espaço do <b>KeyWe</b>, sem a burocracia de contrato de aluguel de longa duração, com opções por estadias diárias, semanais ou mensais.<br><br><br>
+	                      </h4>
+	                </div>
+	                <!--<div class="col-md-4"><br></br><br></br>
+	                      <img src="images/logo1.png" height="200" alt="">
+                  </div> -->
+              </div>
+          </div>
+      </section>
+
+      <!-- Services Section -->
+      <section id="beneficios" class="beneficios-section">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <h1><br></br></h1>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+  <!-- Agenda Section
+      <section id="agenda" class="agenda-section">
+
+              <div class="evento">
+
+              </div>
+
+      </section>    -->
+
+
+	<!-- Galeria Section -->
+	    <!--<section id="galeria" class="galeria-section">
+          <div class="container">
+              <div id="rg-gallery" class="rg-gallery">
+              	<div class="rg-thumbs">
+
+              		<div class="es-carousel-wrapper">
+              			<div class="es-nav">
+              				<span class="es-nav-prev">Previous</span>
+              				<span class="es-nav-next">Next</span>
+              			</div>
+              			<div class="es-carousel">
+              				<ul>
+              					<li><a href="#"><img src="images/thumbs/1.jpg" data-large="images/1.jpg" alt="image01" data-description="From off a hill whose concave womb reworded" /></a></li>
+              					<li><a href="#"><img src="images/thumbs/2.jpg" data-large="images/2.jpg" alt="image02" data-description="A plaintful story from a sistering vale" /></a></li>
+              					<li><a href="#"><img src="images/thumbs/3.jpg" data-large="images/3.jpg" alt="image03" data-description="A plaintful story from a sistering vale" /></a></li>
+              					<li><a href="#"><img src="images/thumbs/4.jpg" data-large="images/4.jpg" alt="image04" data-description="My spirits to attend this double voice accorded" /></a></li>
+              					<li><a href="#"><img src="images/thumbs/5.jpg" data-large="images/5.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
+
+              				</ul>
+              			</div>
+              		</div>
+                        </div>
+      </section> -->
+
+  <!-- Planos Section -->
+      <section id="planos" class="planos-section">
+          <div class="container">
+              <div class="wrap">
+                  <div class="col-md-8">
+                      <h3><p><b></br></p>Planos</b></h3></br>
+                       <img src="images/planosA.jpg" alt="" width="580">
+                  </div>
+
+                  <div class="col-md-4">
+                      <h3><p><b></br></p>Avulsos</b></h3></br>
+                      <img src="images/avulsosA.jpg" alt="" width="320">
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- Kiwis Section -->
+      <section id="kiwis" class="kiwis-section">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                      		<div id="pattern" class="pattern">
+                      			<ul class="g">
+                      					<li><ab href="#"><img src="images/kiwi4.jpg" class="img-rounded" width="180" height="180">Luísa</ab></li>
+                      					<li><ab href="#"><img src="images/kiwi1.jpg" class="img-rounded" width="180" height="180">Nicole</ab></li>
+                      					<li><ab href="#"><img src="images/kiwi2.jpg" class="img-rounded" width="180" height="180">Simone</ab></li>
+                      					<li><ab href="#"><img src="images/kiwi3.jpg" class="img-rounded" width="180" height="180">Rogers</ab></li>
+                                <li><ab href="#"><img src="images/kiwi3.jpg" class="img-rounded" width="180" height="180">Rogers</ab></li>
+                                <li><ab href="#"><img src="images/kiwi3.jpg" class="img-rounded" width="180" height="180">Rogers</ab></li>
+                      				</ul>
+                      		</div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+
+      <!-- Contact Section -->
+      <section id="contato" class="contact-section">
+          <div class="container">
+            <div class="hr"><hr /></div>
+              <div class="row">
+                  <div class="col-md-6">
+                      <h3><p><b></br></p>KeyWe Coworking</b></h3></br>
+                      <h4>Rua Moscou, 46 - Jd. Augusta</h4>
+                      <h4>São José dos Campos - SP</h4>
+                      <h4>+55 (12) 3942-2355</h4>
+                      <h4>info@okeywe.com.br</h4>
+                  </div>
+                  <div class="col-md-6">
+                      <p><br></p><section>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.2145384432056!2d-45.88178528539303!3d-23.19885085418907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4a44bb488ac3%3A0x979d1e9ea181c13b!2sR.+Moscou%2C+46+-+Jardim+Augusta%2C+S%C3%A3o+Jos%C3%A9+dos+Campos+-+SP%2C+12216-700!5e0!3m2!1spt-BR!2sbr!4v1459034017311" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe><br></br>
+                      </section>
+                  </div>
+              </div>
+            <div class="hr"><hr /></div>
+          </div>
+      </section>
+
+      <!-- Bruno Section -->
+      <section id="bruno" class="bruno-section">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <p>Desenvolvido por <label href="https://www.facebook.com/bruno.m.francisco">Bruno Francisco</label></p>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/theater.min.js"></script>
+ 		<script src="js/theater.js"></script>
+ 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ 		<script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
+ 		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+ 		<script type="text/javascript" src="js/jquery.elastislide.js"></script>
+ 		<script type="text/javascript" src="js/gallery.js"></script>
+
+ 		<!-- Scrolling Nav JavaScript -->
+ 		<script src="js/jquery.easing.min.js"></script>
+ 		<script src="js/scrolling-nav.js"></script>
+ 		</body>
+
+</html>

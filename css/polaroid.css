@@ -1,0 +1,121 @@
+.g {
+  		padding: 2em;
+			overflow: hidden;
+		}
+
+.g img {
+  		padding: 0.1em;
+		}
+
+.g li {
+		list-style-type: none;
+		margin:  .01px;
+		height: 260px;
+		background-color: white;
+  	color: black;
+  	text-align: center;
+  	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+  	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+  }
+  
+  .g ab{
+  	  	vertical-align: -20px;
+				font-family: "Pacifico", sans-serif;
+				font-size: 1.5em;
+  }
+		
+		.g li {
+			float: left;
+			width: 50%;
+			padding: 1.25em;
+			-webkit-transform: rotate(-2deg);
+			-moz-transform: rotate(-2deg);
+		}
+		
+		.g li:nth-child(even) {
+			  -webkit-transform: rotate(3deg);
+			  -moz-transform: rotate(3deg);	
+		}
+		
+		.g li:nth-child(3n) {
+		  -webkit-transform: rotate(5deg);
+		  -moz-transform: rotate(5deg);
+		  position: relative;
+		  top: -5px;
+		}
+		
+		
+		.g li:nth-child(5n) {
+		  -webkit-transform: rotate(4deg);
+		  -moz-transform: rotate(4deg);
+		  position: relative;
+		  right: 5px;
+		}
+
+		.g li:nth-child(6n) {
+		  -webkit-transform: rotate(-4deg);
+		  -moz-transform: rotate(-4deg);
+		  position: relative;
+		}
+
+		
+		.g li:nth-child(8n) {
+		  position: relative;
+		  top: 10px;
+		  right: 5px;
+		}
+		
+		.g li:nth-child(11n) {
+		  position: relative;
+		  top: 3px;
+		  left: -5px;
+		}		
+		
+		
+			
+		@media screen and (min-width: 40em) {
+			.g li {
+		    	width: 33.3333333333333333%; 
+		  	}
+		  	.g li:nth-child(3n+1) {
+		  		clear: left;
+		  	}
+		  	.g li:nth-child(odd) {
+				clear: none;
+			}
+		}
+		@media screen and (min-width: 55em) {
+			.g li {
+		    	width: 25%; 
+		  	}
+		  	.g li:nth-child(4n+1) {
+		  		clear: left;
+		  	}
+		  	.g li:nth-child(3n+1) {
+				clear: none;
+			}
+		}
+		@media screen and (min-width: 72em) {
+			.g li {
+		    	width: 20%; 
+		  	}
+		  	.g li:nth-child(5n+1) {
+		  		clear: left;
+		  	}
+		  	.g li:nth-child(4n+1) {
+				clear: none;
+			}
+		}
+		@media screen and (min-width: 90em) {
+			.g li {
+		    	width: 16.666666666%; 
+		  	}
+		  	.g li:nth-child(6n+1) {
+		  		clear: left;
+		  	}
+		  	.g li:nth-child(5n+1) {
+				clear: none;
+			}
+		}
+
+

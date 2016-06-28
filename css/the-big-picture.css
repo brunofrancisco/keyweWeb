@@ -1,0 +1,67 @@
+/*!
+ * Start Bootstrap - The Big Picture HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+}
+
+section {
+    background: black;
+    color: white;
+    border-radius: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+ }
+
+
+.fullSOBRE {
+  background: url(file:///Users/brunofrancisco/Desktop/Pretensa%CC%83o/Programador%20Web/KeyWe%20website/New/Teste%20com%20Bootstrap/images/cadernos.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.fullPLANO {
+  background: url(file:///Users/brunofrancisco/Desktop/Pretensa%CC%83o/Programador%20Web/KeyWe%20website/New/Teste%20com%20Bootstrap/images/mesa.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.fullBENE {
+  background: url(file:///Users/brunofrancisco/Desktop/Pretensa%CC%83o/Programador%20Web/KeyWe%20website/New/Teste%20com%20Bootstrap/images/beneficios.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.fullPADRAO {
+  background: url(file:///Users/brunofrancisco/Desktop/Pretensa%CC%83o/Programador%20Web/KeyWe%20website/New/Teste%20com%20Bootstrap/images/padrao.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.fullCONT {
+  background: black no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
